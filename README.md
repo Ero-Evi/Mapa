@@ -6,6 +6,12 @@ Este proyecto es una aplicación Android que integra Google Maps para mostrar la
 
 Proyecto desarrollado por Victor Llanquinao.
 
+## Documentación
+- [Vulnerabilidades](vulnerabilities.md)
+- [Best Practices](best_practices.md)
+- [Security Tips](security_tips.md)
+- [Security Improvement Program](security_improvement_program.md) 
+
 ## Descripción del Proyecto
 
 La aplicación cuenta con las siguientes funcionalidades principales:
@@ -40,4 +46,14 @@ Se requieren permisos para acceder a la ubicación del dispositivo. Asegúrate d
 ```xml
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
+
+## Cómo Ejecutar la Aplicación de Forma Segura
+1. Clonar el repositorio
+2. Importar el proyecto en Android Studio
+3. Ejecutar la aplicación en un dispositivo o emulador
+4. Asegurarse de que los permisos necesarios están configurados
+## Reporte de Vulnerabilidades El reporte detallado de las pruebas de vulnerabilidad
+realizadas se encuentra en el archivo `vulnerability_report.pdf`.
+
 
